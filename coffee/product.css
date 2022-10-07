@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nanum+Gothic:wght@400;700;800&family=Roboto:ital,wght@0,100;0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url(coffe.jpg);
+    background-attachment: fixed;
+}
+
+#sec1{
+    width: 100%;
+}
+.ortalama{
+    width: 80%;
+    margin: 0 auto;
+}
+.free{
+    padding-top: 84px;
+}
+.free , .busines{
+    width: 100%;
+    text-align: center;
+}
+.free h1{
+    color: #e6a756;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+}
+.busines p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 78px;
+    font-weight: 100;
+
+}
+nav{
+    width: 100%;
+    background-color: rgba(47, 23, 15, 0.9);
+    margin-top: 82px;
+}
+ul{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 312px;
+    padding: 30px;
+}
+ul li a{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+ul li a:hover{
+    color: grey;
+}
+#sec2{
+    width: 100%;
+    margin-top: 45px;
+}
+.qutu1{
+    background-color: #f6e1c5;
+    width: 42%;
+    height: 9rem;
+    border-radius: 3px;
+    position: relative;
+    left: 40rem;
+    bottom: -45px;
+}
+.elemenler{
+    width: 90%;
+    padding: 35px 45px;
+}
+.BLENDED{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.COFFEES{
+   width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 41px;
+    font-weight: 100;
+}
+.sekil{
+    margin: 0 auto;
+    width: 70%;
+}
+.sekil img{
+     width: 100%;
+}
+.qutu2{
+     background-color: #f6e1c5;
+    height: 13rem;
+    border-radius: 3px;
+    width: 65%;
+    position: relative;
+    top: -53px;
+}
+.metn{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+    line-height: 26px; 
+}
+#sec3{
+    width: 100%;
+    margin-top: 45px;
+}
+.sec3_qutu1{
+    left: 0;
+}
+.sec3_qutu2{
+    left: 25rem;
+}
+#sec4{
+     width: 100%;
+    margin-top: 45px;
+}
+.sec4_qutu1{
+    width: 56%;
+    left: 31rem;
+}
+footer{
+    width: 100%;
+    margin-top: 150px;
+    background-color: #331b12 ;
+    padding: 50px 0;
+}
+.foot{
+    width: 50%;
+    margin: 0 auto;
+}
+.foot p{
+    color: white;
+    text-align: center;
+}
